@@ -9,6 +9,8 @@ Mini-aplicación para escuchar podcasts musicales, la cual consta de 3 vistas pr
 Es una _Single Page Application (SPA)_ de manera que la navegación se realizará siempre en el cliente.
 La misma contará con dos modos de ejecución _development_ y _production_ .
 
+Ver la aplicación en el siguiente enlace: [mini-podcasts](https://dcarias0388.github.io/mini-podcasts/)
+
 ## Creación de la aplicación
 
 El proyecto fue creado haciendo uso del [Create React App](https://github.com/facebook/create-react-app).
