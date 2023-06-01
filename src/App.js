@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
     <Header loading={loading}/>
-    <Routes>
+    <Routes basename="/mini-podcasts">
       <Route index path='/' element={<Home loading={loading} isLoading={setLoading}/>}/>
       <Route path='/' element={<PodcastDetails loading={loading} isLoading={setLoading}/>}>
         <Route path='podcast/:podcastId' element={<SummaryEpisode/>}/>
