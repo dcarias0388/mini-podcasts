@@ -1,6 +1,7 @@
 {
   "name": "mini-podcasts",
   "version": "0.1.0",
+  "homepage": "https://dcarias0388.github.io/mini-podcasts",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
