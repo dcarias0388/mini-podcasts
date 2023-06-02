@@ -8,8 +8,7 @@ import {GridContainer, GridCard, TextContainer} from './GroupPodcasts.styles';
 const GroupPodcasts = ({podcasts}) => {
   return (
     <GridContainer>
-    {podcasts?.length > 0 ? (
-      podcasts?.map((pod) => (
+      {podcasts?.map((pod) => (
           <Link key={pod.id} to={`/podcast/${pod.id}`} state= {{ podcast: pod }}>
             <GridCard>
               <img src={pod.image} alt={pod.title} />
@@ -19,8 +18,7 @@ const GroupPodcasts = ({podcasts}) => {
               </TextContainer>
             </GridCard>
           </Link>
-        ))
-    ) : (<h1>No podcasts found</h1>)}
+        ))}
         
     </GridContainer>
   )
